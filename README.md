@@ -24,26 +24,6 @@ End-to-end malware research cycle:
 | YARA | Detection rule authoring |
 | strings / sha256sum | Static analysis |
 
-## 📁 Repository Structure
-keylogger-research-lab/
-
-├── keylogger.py                              # Research sample
-
-├── analysis/
-
-│   ├── keylogger_detection.yar              # 4 YARA detection rules
-
-│   ├── strace_output.txt                    # Dynamic analysis trace
-
-│   └── hashes.txt                           # SHA256 + MD5
-
-├── reports/
-
-│   └── Keylogger_Threat_Report.pdf          # Full threat intelligence report
-
-└── logs/                                    # Sample output (gitignored in real use)
-
-
 ## 🎯 MITRE ATT&CK Mapping
 - **T1056.001** — Input Capture: Keylogging
 
